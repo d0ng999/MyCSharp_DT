@@ -314,6 +314,11 @@ namespace MyFirstCSharp
             MessageBox.Show(sResult);
 
             MessageBox.Show((iResult % 2 == 0) ? "짝수입니다" : "홀수입니다");
+
+            int iValue = 10;
+            string sValue1 = string.Empty;
+            sValue1 = (iValue % 2 == 0) ? (sValue1 = "짝수입니다.") : (sValue1 = "홀수 입니다.");
+            MessageBox.Show(sValue1);
         }
     }
 }

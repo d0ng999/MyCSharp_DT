@@ -482,17 +482,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test1.Designer.cs">
+      <DependentUpon>test1.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Lesson05_Class\Chap36_Abstract_Polymorphism[추상화와 다형성].resx">
       <DependentUpon>Chap36_Abstract_Polymorphism[추상화와 다형성].cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson01_Intro\Chap01_Hello[메세지박스 문자 표현].resx">
       <DependentUpon>Chap01_Hello[메세지박스 문자 표현].cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson01_Intro\Chap03_DataTypeConversion.resx">
       <DependentUpon>Chap03_DataTypeConversion.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson01_Intro\Chap04_DataType_ConvTest[데이터 타입 변환 TEST].resx">
       <DependentUpon>Chap04_DataType_ConvTest[데이터 타입 변환 TEST].cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson01_Intro\Chap05_Operator[연산자].resx">
       <DependentUpon>Chap05_Operator[연산자].cs</DependentUpon>
@@ -704,6 +713,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="test1.resx">
+      <DependentUpon>test1.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

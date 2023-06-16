@@ -17,7 +17,7 @@ namespace MyFirstCSharp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // Main함수 내의 클래스명이 실행화면으로 표현된다.(Chap03_DataTypeConversion)
-            Application.Run(new Chap36_Abstract_Polymorphism());
+            Application.Run(new Chap11_BranchingStatement());
         }
     }
 }
